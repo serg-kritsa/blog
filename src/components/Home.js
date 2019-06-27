@@ -6,7 +6,6 @@ import { store } from '../redux/store'
 import {addPostsData} from '../redux/reducers/postActions'
 import {addUserData} from '../redux/reducers/userActions'
 import {addCommentData} from '../redux/reducers/commentActions'
-import { Container } from 'react-bootstrap';
 
 export default class Home extends Component {
   componentDidMount(){

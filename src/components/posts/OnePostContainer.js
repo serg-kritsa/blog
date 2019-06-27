@@ -6,8 +6,6 @@ import {Route, Link} from 'react-router-dom'
 import axios from 'axios'
 import { SERVER_URL } from '../../fe-constants'
 
-import { Container } from 'react-bootstrap';
-
 class OnePostContainer extends React.Component{
   constructor(props) {
     super(props)

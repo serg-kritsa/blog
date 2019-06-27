@@ -1,7 +1,5 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
-import { Form, FormControl, Button } from 'react-bootstrap';
 import { UserDialogsBlock } from './UserDialogsBlock'
 import {store} from '../redux/store'
 import {setCurrentUser, removeCurrentUser} from '../redux/reducers/userActions'

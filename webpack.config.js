@@ -15,7 +15,7 @@ module.exports = {
     rules: [
       // для стилей в отдельных файлах
       {
-        test: /\.css$/,
+        test: /\.(sa|sc|c)ss$/,
         use: [
           {
             loader: MiniCssExtractPlugin.loader,
@@ -27,7 +27,7 @@ module.exports = {
             },
           },
           'css-loader',
-          'postcss-loader',
+          // 'postcss-loader',
           'sass-loader',
         ],
       },

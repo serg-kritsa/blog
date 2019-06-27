@@ -8,8 +8,6 @@ import {addFanAction, removeFanAction,removePostAction} from '../../redux/reduce
 import axios from 'axios'
 import { SERVER_URL } from '../../fe-constants'
 
-import { Container } from 'react-bootstrap';
-
 class AllPostsContainer extends React.Component {
   constructor(props) {
     super(props)

@@ -1,0 +1,15 @@
+@media (max-width: 700px) {
+  .navbar{
+    flex-direction: column;
+    text-align: center;
+    .navbar-left {
+      flex-direction: column;
+    }
+    ul{
+      flex-direction: column;
+    }
+  }
+  .container {
+    margin: 8.5rem 2rem;
+  }
+}
